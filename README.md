@@ -4,7 +4,7 @@
 
 ### Setup
 
-You can install the required packages using either pip or conda.
+You can install the required python packages using either pip or conda.
 
 - pip  
 `pip install -r requirements.txt`
@@ -12,6 +12,11 @@ You can install the required packages using either pip or conda.
 - conda  
 `conda env create -f environment.yml`
 
+External unix tools used:
+
+- jq  
+`sudo apt-get install jq` (Debian)  
+`sudo dnf install jq` (Fedora/RedHat)  
 
 ### Notebook
 
