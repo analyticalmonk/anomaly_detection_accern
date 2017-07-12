@@ -22,7 +22,7 @@ External unix tools used:
 
 Run the jupyter notebook from the terminal using the below command:
 
-jupyter notebook accern_anomaly_detection.ipynb
+`jupyter notebook --NotebookApp.iopub_data_rate_limit=1.0e10 accern_anomaly_detection.ipynb`
 
 ### Explanation
 
